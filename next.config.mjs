@@ -2,6 +2,7 @@
 const nextConfig = {
   experimental: {
     serverComponentsExternalPackages: ["typeorm"],
+        serverMinification: false,
   },
   webpack(config) {
     config.module.rules.push({
